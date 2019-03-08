@@ -1,0 +1,13 @@
+using System;
+
+
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+            var rad = double.Parse(Console.ReadLine());
+            var converter = rad * 57.2957795;
+            Console.WriteLine(Math.Round(converter, 0));
+        }
+    }
