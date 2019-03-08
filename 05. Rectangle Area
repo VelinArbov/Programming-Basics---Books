@@ -1,0 +1,17 @@
+using System;
+
+
+
+
+    class въведение
+    {
+        static void Main()
+        {
+            Console.Write("1ва страна   ");
+            var a = decimal.Parse(Console.ReadLine());
+            Console.Write("2ра страна   ");
+            var b = decimal.Parse(Console.ReadLine());
+            var sum = a * b;
+                Console.WriteLine("лицето е равно на " + sum);
+        }
+    }
