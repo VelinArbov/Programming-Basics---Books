@@ -1,0 +1,16 @@
+using System;
+
+
+
+
+    class въведение
+    {
+        static void Main()
+        {
+
+            Console.Write("страна на квадрата   ");
+            var a = int.Parse(Console.ReadLine());
+            var area = a * a;
+            Console.WriteLine("обиколката е равна на  " + area);
+        }
+    }
