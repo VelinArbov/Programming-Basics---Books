@@ -1,0 +1,11 @@
+using System;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var lev = double.Parse(Console.ReadLine());
+            var convertor = lev * 1.79549;
+            Console.WriteLine((Math.Round(convertor,2)) +  " BGN");
+        }
+    }
